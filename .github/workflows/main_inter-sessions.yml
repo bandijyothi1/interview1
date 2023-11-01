@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'inter-sessions'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C42B5AAAE1C34829A69C3313E11EBB55 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E5CEB71CDCD241C5BF497D617FE009A4 }}
           package: .
