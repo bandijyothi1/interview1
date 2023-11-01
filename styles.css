@@ -1,0 +1,50 @@
+.dark-theme {
+    background-color: #121212;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.chat-window {
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background: #1F1F1F;
+}
+
+.chat-header {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.chat-messages {
+    padding: 20px;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.chat-input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#user-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+}
+
+#send-button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
